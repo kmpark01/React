@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <div id="root"></div>
+</body>
+<script>
+  const root = document.getElementById("root");
+  const h2 =  React.createElement("h2", null, "this is heading title");
+
+  const eventBtn = React.createElement("button", null, "Click!!");
+  const styleDiv = React.createElement("div", null, "Box");
+  const div = React.createElement("div", null, [eventBtn, styleDiv]);
+  ReactDOM.render([h2, div], root);
+</script>
+</html>
