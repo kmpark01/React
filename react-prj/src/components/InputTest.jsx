@@ -12,7 +12,7 @@ const InputTest = () => {
   }
   return (
     <div>
-     <input type="text" onChange={handleChangeText}/>
+     <input type="text" onChange={handleChangeText} value={text}/>
      <button onClick={handleReset}>초기화</button>
      <div>
       <b>값 : {text}</b>

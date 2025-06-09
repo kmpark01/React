@@ -1,12 +1,14 @@
 // import logo from './logo.svg';
 import './App.css';
-import InputTest from './components/InputTest';
+import ShoppingList from './components/test/ShoppingList';
+
 
 function App() {
-
-  return (
-    <InputTest/>
-  );
+  return(
+    <div>
+      <ShoppingList/>
+    </div>
+  )
 }
 
 export default App;
