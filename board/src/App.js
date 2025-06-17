@@ -3,7 +3,9 @@ import Display from './display/Display';
 
 function App() {
   return (
-    <Display/>
+    <div>
+      <Display/>
+    </div>
   );
 }
 
